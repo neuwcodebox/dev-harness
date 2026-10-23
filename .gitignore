@@ -1,0 +1,14 @@
+# Machine-local data and OS metadata.
+.local/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Real environment values stay local; examples must contain dummy values only.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Add dependency/build/cache rules for the chosen stack during initialization.
+# Keep lockfiles and shared project configuration trackable.
